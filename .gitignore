@@ -1,0 +1,30 @@
+build/
+.gradle/
+.idea/
+target/
+out/
+.project
+.classpath
+*.*~
+*.iml
+**/*.iml
+*.ipl
+**/*.ipl
+*.iwl
+**/*.iwl
+/logs
+*.log
+config.properties
+# we dont want generated files to be checked in
+gen/
+# we dont want intermediate `-gen.tex` files to be checked in either
+*-gen.tex
+*.bak*
+help.txt
+help.md
+help.adoc
+.~lock*
+file-names.ods
+repo/learn-latex
+repo/test
+staging/
